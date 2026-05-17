@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: #062149f4;
-    font-family: Arial, sans-serif;
+    background-color: #404A65;
+    font-family: 'Kanit', Arial, sans-serif;
     color: white;
     text-align: center;
 }
@@ -21,13 +21,17 @@ main {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: bold;
     padding-bottom: 1rem;
+    text-shadow: 2px 2px 0px #35383f;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: #35383f;
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    font-weight: semibold;
     color: #a0a0a0;
 }
 
@@ -91,8 +95,9 @@ button {
     border: none;
     border-radius: 5px;
     box-shadow: 0px 4px 0px 0px #23649b;
-    background-color: #13376df4;
+    background-color: #1F6FB0;
     color: white;
-    font-size: 16px;
+    font-size: 1.25rem;
+    font-weight: semibold;
     cursor: pointer;
 }
